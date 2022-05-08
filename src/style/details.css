@@ -1,0 +1,27 @@
+.details{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 8vh;
+    
+}
+.details1{
+    width: 45%;
+}
+.details1 img{
+    height: 60vh;
+    width:100%
+}
+.details2{
+    width: 35%;
+    font-size: 18px;
+    line-height: 50px;
+    color: bisque;
+}
+.details2 span{
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}

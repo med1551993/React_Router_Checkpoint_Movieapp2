@@ -1,0 +1,86 @@
+.List{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0,0,1);
+    color: #FFFFFF;  
+}
+.nav{
+  width: 100%;
+    height: 10vh; 
+    display: flex;
+    justify-content: space-between;
+}
+.nav input{
+    width: 35vw;
+    height: 30px; 
+    font-size: 19px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 15px;
+    outline: none;
+    position: relative;
+    margin-left: 20vw;
+  }
+
+.nav .fa-solid{
+      color: #333333;   
+      top: 22px;
+      font-size: 20px;
+      position: absolute;
+      left: 53%;
+}
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  width: 20vw;
+  margin-top: 15px;
+  margin-right: 20vw;
+}
+.nav ul li a{
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1px 8px 2px 8px;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+  transition: .3s;
+  
+}
+.nav ul li a:hover{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color:  rgba(255, 255, 0, 0.644);
+}
+.nav ul li a:hover{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color:  rgba(255, 255, 0, 0.644);
+}
+.cards{
+    background-color: rgb(0,0,1);
+    margin: 0 auto;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin-top: 15px;
+ 
+  }
+
+  .card1{
+    font-size: 150px !important;
+    color: #333333 ; 
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+  } 
+  .card1:hover{
+      opacity: 0.8;
+      cursor: pointer;
+  }
+  
+
